@@ -6,7 +6,7 @@
   "scripts": { "dev": "next dev --webpack", "build": "next build --webpack", "start": "next start", "typecheck": "tsc --noEmit", "test": "node --import tsx --test tests/*.test.ts", "test:e2e": "node --import tsx scripts/smoke.ts", "test:stack": "REQUIRE_FULL_STACK=true node --import tsx scripts/smoke.ts", "test:ui": "node --import tsx scripts/ui-smoke.ts", "test:research": "node --import tsx scripts/research-smoke.ts", "video": "node --import tsx scripts/record-demo.ts" },
   "dependencies": {
     "@ai-sdk/react": "4.0.130", "@assistant-ui/ai-sdk": "0.0.9", "@assistant-ui/react": "0.15.23",
-    "@mastra/ai-sdk": "1.10.6", "@mastra/core": "1.74.0", "@neon/ai-sdk-provider": "1.0.0",
+    "@mastra/ai-sdk": "1.10.6", "@mastra/core": "1.81.0", "@neon/ai-sdk-provider": "1.0.0",
     "@neondatabase/serverless": "1.2.0", "@onkernel/sdk": "0.119.0", "ai": "7.0.127",
     "next": "16.3.8", "playwright-core": "1.63.0", "react": "19.3.0", "react-dom": "19.3.0", "zod": "4.1.8"
   },
